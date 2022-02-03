@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend para sistema de laboratorio dental en js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcampof/SmileArtJS.git"
+  },
+  "author": "Tomás Campo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcampof/SmileArtJS/issues"
+  },
+  "homepage": "https://github.com/tcampof/SmileArtJS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "knex": "^1.0.2",
+    "morgan": "^1.10.0",
+    "mssql": "^8.0.1",
+    "path": "^0.12.7",
+    "winston": "^3.5.1",
+    "winston-daily-rotate-file": "^4.6.0"
+  }
+}
